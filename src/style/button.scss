@@ -1,0 +1,30 @@
+.btn {
+    @include base-btn();
+    font-family: 'Blacklisted';
+    font-size: 1.5em;
+    padding-top: 9px;
+}
+
+.btn-disabled {
+    height: 42px;
+    width: 30%;
+    font-size: 1em;
+    font-weight: 500;
+    border: 1px solid transparent;
+    background-color: darkgray;
+    color: white;
+    
+
+}
+
+.btn:disabled {
+    height: 42px;
+    width: 30%;
+    font-size: 1em;
+    font-weight: 500;
+    border: 1px solid transparent;
+    background-color: darkgray;
+    color: white;
+    
+
+}
